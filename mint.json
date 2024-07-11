@@ -36,8 +36,24 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "AI Agents"
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Basic Tutorials",
+      "pages": [
+        "basic-tutorials/ai_agents",
+        "basic-tutorials/phonenumber",
+        "basic-tutorials/connectors",
+        "basic-tutorials/events",
+        "basic-tutorials/call_logs",
+        {
+          "group": "User",
+          "pages": [
+            "basic-tutorials/user/profile",
+            "basic-tutorials/user/user_list"
+          ]
+        }
       ]
     },
     {
