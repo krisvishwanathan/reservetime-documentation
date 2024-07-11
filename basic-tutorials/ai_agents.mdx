@@ -1,0 +1,79 @@
+---
+title: AI Agents
+description: 'How can you create AI Agent of your choice under 5 mins'
+---
+
+## Overview
+
+ScheduleTime allows users to create and manage AI agents to automate calls. There are three types of agents available:
+
+1. **Incoming Agent:** Handles incoming calls and processes the phone number from which the call came.
+2. **Outgoing Agent:** Allows users to initiate outgoing calls by adding a phone number to dial.
+3. **Batch Agent:** Manages batch calls using a CSV file containing multiple phone numbers.
+
+## Accessing the Agent Management Interface
+
+1. Log in to your ScheduleTime account.
+2. Navigate to the ScheduleTime dashboard.
+3. Click on the `Agents` section in the left-hand navigation menu and select `Voice Scheduler` to view the agent management interface.
+
+## Adding a New Agent
+
+To add a new agent, click the `Add Agent` button on the `Manage Agents` page.
+
+### Agent Creation Form
+
+Upon clicking `Add Agent`, a form will appear. Fill out the required details as follows:
+
+1. **Agent Name:** Enter a name for the agent.
+2. **Agent Type:** Select the type of agent (Incoming Agent, Outgoing Agent, Batch Agent) from the dropdown menu.
+3. **Prompt:** Provide any necessary prompts for the agent.
+4. **First Sentence:** Enter the first sentence the agent should say during a call.
+5. **Connector:** Select the appropriate connector (e.g., System Calendar).
+
+Extra Form Fields
+
+1. **Choose File:** Choose a CSV File in case of Batch Agent
+2. **Phone Number:** Select a phone number from the dropdown in case of Incoming and Batch Agents
+
+*Note: There are no extra form fields required for Outgoing Agent*
+
+### Incoming Agent
+
+- **Description:** The Incoming Agent processes incoming calls and retrieves the phone number from which the call came.
+
+- **Usage:** Ideal for scenarios where you need to handle incoming calls and take actions based on the caller's number.
+
+### Outgoing Agent
+
+- **Description:** The Outgoing Agent initiates outgoing calls. A prompt will appear to add the phone number to dial.
+
+- **Usage:** Suitable for making individual outgoing calls.
+
+- **Form Fields:**
+
+    - **Phone Number:** Input the phone number to dial.
+
+### Batch Agent
+
+- **Description:** The Batch Agent handles batch calls using a CSV file containing multiple phone numbers.
+
+- **Usage:** Perfect for scenarios where you need to make multiple calls in a batch.
+
+- **Form Fields:**
+
+    - **CSV File:** Upload a CSV file containing the list of phone numbers.
+    - **Batch Call Prompt:** A prompt will appear with a list of all numbers and a button to start the batch calls.
+
+## Managing Existing Agents
+
+On the `Manage Agents` page, you can view, edit, or delete existing agents. Each agent is displayed with its type and relevant actions.
+
+- **View Options:** Switch between different views (grid or list) for a better overview of your agents.
+
+- **Edit:** Click the three dots next to an agent and select `Edit` to modify the agent's details.
+
+- **Delete:** Click the three dots next to an agent and select `Delete` to remove the agent.
+
+
+
