@@ -53,6 +53,13 @@
             "basic-tutorials/user/profile",
             "basic-tutorials/user/user_list"
           ]
+        },
+        {
+          "group": "Billing",
+          "pages": [
+            "basic-tutorials/billing/invoices",
+            "basic-tutorials/billing/subscriptions"
+          ]
         }
       ]
     },
