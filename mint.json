@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:kris@icloudnow.com"
+      "url": "https://discord.com/invite/jMujGVdyH7"
     }
   ],
   "topbarCtaButton": {
@@ -40,38 +40,27 @@
       ]
     },
     {
-      "group": "Basic Tutorials",
+      "group": "Essential Links",
       "pages": [
-        "basic-tutorials/ai_agents",
-        "basic-tutorials/phonenumber",
-        "basic-tutorials/connectors",
-        "basic-tutorials/events",
-        "basic-tutorials/call_logs",
+        "essential-links/ai_agents",
+        "essential-links/phonenumber",
+        "essential-links/connectors",
+        "essential-links/events",
+        "essential-links/call_logs",
         {
           "group": "User",
           "pages": [
-            "basic-tutorials/user/profile",
-            "basic-tutorials/user/user_list"
+            "essential-links/user/profile",
+            "essential-links/user/user_list"
           ]
         },
         {
           "group": "Billing",
           "pages": [
-            "basic-tutorials/billing/invoices",
-            "basic-tutorials/billing/subscriptions"
+            "essential-links/billing/invoices",
+            "essential-links/billing/subscriptions"
           ]
         }
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
       ]
     },
     {
