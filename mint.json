@@ -32,11 +32,25 @@
     }
   ],
   "navigation": [
+
     {
-      "group": "Get Started",
+      "group": " ",
       "pages": [
         "introduction",
         "quickstart"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/scheduling_meetings",
+        "getting-started/rescheduling_meetings",
+        "getting-started/cancelling_meetings",
+        "getting-started/web_scheduler",
+        "getting-started/knowledge_agents",
+        "getting-started/outbound_calls",
+        "getting-started/batch_calls",
+        "getting-started/tenet_multiuser"
       ]
     },
     {
